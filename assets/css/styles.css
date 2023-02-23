@@ -66,7 +66,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(/assets/img/background.jpg) bottom/cover no-repeat;
+    background: url(../img/background.jpg) bottom/cover no-repeat;
     height: calc(100vh - 90px);
 }
 
@@ -155,7 +155,7 @@ a {
     height: 120vh;
     margin-top: 79px;
     padding: 73px 0 64px;
-    background-image: url(/assets/img/forcetech-1.jpg);
+    background-image: url(../img/forcetech-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     box-sizing: content-box;
@@ -200,7 +200,7 @@ a {
     height: 170vh;
     margin-top: 40px;
     padding: 93px 0 79px;
-    background-image: url(/assets/img/forcetech-2.jpg);
+    background-image: url(../img/forcetech-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     box-sizing: content-box;
