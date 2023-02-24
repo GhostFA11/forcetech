@@ -530,11 +530,12 @@ a {
 }
 
 .previews {
-    margin-top: 90px;
+    padding-top: 67px;
+    text-align: center;
 }
 
 .previews video {
-    width: 100%;
+    width: 70%;
 }
 
 .previews .body {
