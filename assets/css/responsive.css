@@ -1,5 +1,21 @@
-/* Mobile & Tablet */
-@media (max-width: 666px) {
+@media (max-width: 1023px) {
+    .turn-on-mobile {
+        display: inline-block;
+        height: 0;
+        background: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hero-wrap img {
+        display: inline-block;
+        max-width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
     .fixed-header {
         max-width: 100%;
         text-align: center;
@@ -21,31 +37,14 @@
         justify-content: space-between;
     }
 
-    .hero-wrap {
-        height: 28vh;
-    }
-
-    .designs {
-        margin: 0;
-        padding: 0;
-        height: 254vh;
-        zoom: 24%;
-    }
-
-    .analyses {
-        margin: 0;
-        padding: 0;
-        height: 294vh;
-        zoom: 35%;
+    .hero-wrap img {
+        display: inline-block;
+        max-width: 100%;
     }
 
     .previews {
         margin: 0;
         text-align: center;
-    }
-
-    .previews video {
-        width: 91%;
     }
 
     .footer .row-bottom {
@@ -56,106 +55,5 @@
 
     .footer .copyright {
         padding-top: 12px;
-    }
-}
-
-@media (min-width: 667px) and (max-width: 739px) {
-    .hero-wrap {
-        height: 77vh;
-    }
-
-    .designs {
-        height: 376vh;
-        zoom: 43%;
-    }
-
-    .analyses {
-        height: 525vh;
-    }
-
-    .previews {
-        margin: 0;
-        padding-top: 77px;
-        text-align: center;
-    }
-
-    .previews video {
-        width: 56%;
-    }
-}
-
-@media (min-width: 740px) and (max-width: 768px) {
-    .hero-wrap {
-        height: 51vh;
-    }
-
-    .designs {
-        height: 147vh;
-        zoom: 49%;
-    }
-
-    .analyses {
-        height: 171vh;
-        zoom: 72%;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 915px) {
-    .hero-wrap {
-        height: 96vh;
-    }
-
-    .designs {
-        height: 355vh;
-        zoom: 50%;
-    }
-
-    .analyses {
-        height: 496vh;
-        zoom: 50%;
-    }
-
-    .previews {
-        padding-top: 78px;
-    }
-
-    .previews video {
-        width: 64%;
-    }
-}
-
-@media (min-width: 916px) and (max-width: 1024px) {
-    .hero-wrap {
-        height: 91vh;
-    }
-
-    .designs {
-        height: 169vh;
-        zoom: 66%;
-    }
-
-    .analyses {
-        height: 225vh;
-        zoom: 87%;
-    }
-
-    .previews {
-        padding-top: 74px;
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1366px) {
-    .hero-wrap {
-        height: 60vh;
-    }
-
-    .designs {
-        height: 121vh;
-        zoom: 86%;
-    }
-
-    .analyses {
-        height: 163vh;
-        zoom: 115%;
     }
 }
